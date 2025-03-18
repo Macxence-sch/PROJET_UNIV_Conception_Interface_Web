@@ -1,0 +1,205 @@
+Nom: Giacomoni / Schneider
+Prénom: Paul / Macxence
+
+Thème choisi: NBA
+
+---
+#Basket
+Dans ce document, nous avons exploré le thème de la NBA de manière approfondie. Pour organiser clairement le contenu, nous avons utilisé des balises "<div>" pour chaque section.
+
+Notre site comprend un menu de navigation permettant un accès facile aux différentes pages, comme la page d'accueil, la section principale sur le basketball, la billetterie et les médias. Pour captiver l'attention dès le départ, nous avons intégré une vidéo présentant des moments forts du basketball.
+
+Ensuite, pour faciliter la navigation, nous avons ajouté un sommaire pour guider les utilisateurs dans la page. Un court paragraphe introductif accompagne deux vidéos interactives pour dynamiser l'expérience du site.
+
+Nous avons également abordé les règles du basketball et présenté les équipes avec leurs logos pour une identification rapide. Dans la section des joueurs emblématiques, nous avons utilisé une image de terrain de basketball en arrière-plan, avec des liens vers les pages Wikipedia des joueurs et d'autres éléments marquants de la NBA.
+
+
+#spécification css sélecteur complexe(Basket)
+.navettitre {
+    /* Style des titres de navigation */
+    background-color: rgba(0, 0, 0, 0); /* Fond transparent */
+    width: 100%; /* Largeur pleine */
+    font-size: 150%; /* Taille de police */
+    display: flex; /* Utilisation de flexbox */
+    flex-wrap: wrap; /* Enveloppement des éléments flexibles */
+    justify-content: space-around; /* Alignement des éléments flexibles */
+    color: #FDB927; /* Couleur du texte */
+    transition: background-color 0.6s ease; /* Transition pour le changement de couleur de fond */
+    font-family:'Times New Roman', Times, serif; /* Police de caractères */
+}
+
+.video-background {
+    /* Style de l'arrière-plan vidéo */
+    margin-top: 225px; /* Marge en haut */
+    width: 101%; /* Largeur légèrement supérieure pour éviter les espaces blancs */
+    height: auto; /* Hauteur automatique */
+    position: absolute; /* Position absolue */
+    top: 50%; /* Positionnement au milieu verticalement */
+    left: 49.5%; /* Positionnement au milieu horizontalement */
+    transform: translate(-50%, -50%); /* Décalage pour centrer l'élément */
+    z-index: -1; /* Positionnement en arrière-plan */
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5); /* Ombre portée */
+}
+
+.titresom{
+    /* Style des titres de section */
+    display: flex; /* Utilisation de flexbox */
+    justify-content: center; /* Alignement au centre */
+    margin-top: 690px; /* Marge en haut */
+    font-family:'Times New Roman', Times, serif; /* Police de caractères */
+    text-align: center; /* Alignement du texte au centre */
+    background-color: #041E42; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    height: 80px; /* Hauteur */
+}
+
+.sommaire {
+    /* Style de la section de résumé */
+    left: 15%; /* Positionnement à gauche */
+    background-color: #FDB927; /* Couleur de fond */
+    text-align: left; /* Alignement du texte à gauche */
+    border-radius: 20px; /* Bordure arrondie */
+    color: rgb(255, 255, 255); /* Couleur du texte */
+    font-size: 20px; /* Taille de police */
+    width: 45%; /* Largeur */
+}
+
+.ecritsommaire{
+    /* Style des liens de résumé */
+    text-decoration: none; /* Suppression du soulignement */
+}
+
+.joeurImage {
+    /* Style des images de joueur */
+    width:400px; /* Largeur */
+    height: 250px; /* Hauteur */
+    border-radius: 15%; /* Bordure arrondie */
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5); /* Ombre portée */
+    transition: transform 0.3s; /* Transition pour l'effet de zoom au survol */
+}
+
+footer {
+    /* Style du pied de page */
+    display: flex; /* Utilisation de flexbox */
+    justify-content: center; /* Alignement au centre */
+    background-color: #333; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    padding: 20px 0; /* Rembourrage haut et bas */
+    bottom: 0; /* Positionnement en bas */
+    width: 100%; /* Largeur pleine */
+}
+
+
+#Billeterie
+Pour la section "Billetterie", nous avons créé une simulation de commande de billets NBA.
+ Les utilisateurs sont invités à spécifier leur nom et le nombre de billets souhaités. Une fois les informations saisies,
+ un résumé de la commande est affiché, puis les utilisateurs sont redirigés vers une autre page pour simuler un faux paiement.
+
+
+#spécification css sélecteur complexe (billeterie)
+.top {
+    /* Style de la section supérieure */
+    background-color: #fff; /* Couleur de fond */
+    color: black; /* Couleur du texte */
+    display: flex; /* Utilisation de flexbox */
+    font-family:'Times New Roman', Times, serif; /* Police de caractères */
+}
+
+.container {
+    /* Style du conteneur */
+    display: inline-block; /* Affichage en ligne avec comportement de bloc */
+    width: 45%; /* Largeur */
+    margin: 10px; /* Marge */
+    padding: 10px; /* Rembourrage */
+    background-color: #fff; /* Couleur de fond */
+    border-radius: 5px; /* Bordure arrondie */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Ombre portée */
+}
+
+button {
+    /* Style pour les boutons */
+    padding: 10px 20px; /* Rembourrage */
+    font-size: 16px; /* Taille de police */
+    background-color: #007bff; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    border: none; /* Suppression de la bordure */
+    border-radius: 5px; /* Bordure arrondie */
+    cursor: pointer; /* Curseur au survol */
+    transition: background-color 0.3s ease; /* Transition pour le changement de couleur de fond */
+}
+
+footer {
+    /* Style du pied de page */
+    background-color: #333; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    padding: 20px; /* Rembourrage */
+    text-align: center; /* Alignement du texte au centre */
+}
+
+footer p {
+    /* Style pour les paragraphes dans le pied de page */
+    margin: 0; /* Réinitialisation de la marge */
+    font-size: 14px; /* Taille de police */
+}
+
+
+#Média
+Dans la section "Média", nous mettons en avant divers sujets liés au basketball, tels que les dunks pour mettre en forme ceci, nous avons utilisé un carroussel d'image, ainsi que d'autres sports originaires des États-Unis.
+
+
+#spécification css sélecteur complexe (Média)
+.album {
+    /* Style de la galerie d'images */
+    position: relative; /* Position relative pour les éléments enfants positionnés absolument */
+    max-width: 100%; /* Largeur maximale de la galerie */
+    margin: 0 auto; /* Mise en page centrée */
+    overflow: hidden; /* Masquage du débordement */
+    background-color: #fff; /* Couleur de fond */
+}
+
+.photos {
+    /* Style des photos dans la galerie */
+    display: flex; /* Utilisation de flexbox */
+    transition: transform 0.5s ease; /* Transition pour l'animation du défilement */
+}
+
+.photos img {
+    /* Style des images dans la galerie */
+    max-width: 100%; /* Largeur maximale de l'image */
+    height: auto; /* Hauteur automatique */
+}
+
+.autresport {
+    /* Style de la section "Autres sports" */
+    display: flex; /* Utilisation de flexbox */
+    flex-direction: column; /* Direction de la colonne pour l'alignement vertical */
+    justify-content: center; /* Alignement central vertical */
+    text-align: center; /* Alignement du texte au centre */
+    margin-top: 5%; /* Marge en haut */
+}
+
+.imageautre {
+    /* Style des images pour d'autres sports */
+    width: 400px; /* Largeur de l'image */
+    height: auto; /* Hauteur automatique */
+    border-radius: 5%; /* Bordure arrondie */
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5); /* Ombre portée */
+    transition: transform 0.3s; /* Transition pour l'effet de zoom au survol */
+}
+
+.imageautre:hover {
+    /* Style au survol de l'image */
+    transform: scale(1.1); /* Zoom sur l'image */
+}
+
+.pres {
+    /* Style du conteneur pour la présentation */
+    display: flex; /* Utilisation de flexbox */
+    flex-direction: column; /* Direction de la colonne pour l'alignement vertical */
+    justify-content: center; /* Alignement central vertical */
+    background-color: #fff; /* Couleur de fond */
+    width: 45%; /* Largeur */
+    padding: 40px; /* Rembourrage */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée */
+    border-radius: 8px; /* Bordure arrondie */
+}

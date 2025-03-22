@@ -1,4 +1,4 @@
-# PROJET_UNIV_Dev_Application_Internet
+# PROJET_UNIV_ Conception d'interface web
 
 Projet L1S2, Conception d'interface web
 
